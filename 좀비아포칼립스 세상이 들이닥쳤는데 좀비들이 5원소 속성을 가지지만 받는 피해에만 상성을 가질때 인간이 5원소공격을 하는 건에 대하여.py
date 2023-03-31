@@ -1082,7 +1082,7 @@ def battle():
         print("이제 정말 거의 다 왔다. 부두다!!!",
               "기쁨도 잠시.. 이곳을 지키는 방사능 범벅 좀비...!!", '\n', sep='\n')
         fight2(nuke)
-        if character[0].hp <= 0 and character[1].hp <= 0 and character[2].hp <= 0 and character[3].hp <= 0:
+        if character[0].hp <= 0 and character[1].hp <= 0 and character[2].hp <= 0 and character[3].hp <= 0 and character[4].hp <= 0:
             print("게임종료..", "이쉽게도 당신은 생존하지 못했습니다..", '\n', sep='\n')
             break
         print('='*70, '좀비와의 전투에서 승리했습니다! 보상:  레벨업, 스킬업', sep='\n')

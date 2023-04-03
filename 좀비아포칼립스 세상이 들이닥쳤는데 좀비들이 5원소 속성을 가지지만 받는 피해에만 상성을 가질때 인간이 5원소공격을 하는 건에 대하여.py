@@ -878,6 +878,7 @@ def zombie_attack(a):
 
 
 # 싸움장면 (반복되서 함수로 만듦)(잘했삼)(멋있삼)(오졌삼)(바지적삼)
+# 4대 1전투
 def fight1(a):
     while (character[0].hp > 0 or character[1].hp > 0 or character[2].hp > 0 or character[3].hp > 0) and a.hp > 0:
         for player in character:
@@ -892,7 +893,8 @@ def fight1(a):
         for i in character:
             check(i)
 
-
+            
+#5대 1전투
 def fight2(a):
     while (character[0].hp > 0 or character[1].hp > 0 or character[2].hp > 0 or character[3].hp > 0 or character[4].hp > 0) and a.hp > 0:
         for player in character:
